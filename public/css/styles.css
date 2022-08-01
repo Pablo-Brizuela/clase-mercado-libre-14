@@ -33,6 +33,7 @@ header div.logo{
 }
 header nav{
     font-size: 12px;
+    display: none;
 }
 
 header ul li{
@@ -152,7 +153,32 @@ article div.main-article{
 }
 
 @media (min-width: 361px){
+    
+    .top-header{
+        
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .copy-header{
+        border: solid 2px red;
+        max-width: 250px;
+        text-align: right;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    .main-navbar{
+        display: flex;
+    }
+    
+
     main section article .description{
+        display: block;
+    }
+    header nav{
         display: block;
     }
 
@@ -161,11 +187,10 @@ article div.main-article{
     }
 
     main section div.products{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: flex-start;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: flex-start; 
     }
     
     main section div.products article{
