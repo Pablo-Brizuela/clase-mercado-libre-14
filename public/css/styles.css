@@ -47,25 +47,24 @@ header ul li a{
 
 header .form .input{
     background-color: #FFF;
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     outline: none;
     color: #666;
     padding: 2px;
+    font-size: 13px;
 }
 header .form .submit{
     background-color: #FFF;
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     color: #666;
     width: 10%;
     text-align: center;
     
 }
-header .form{
-    border: solid 2px red;
+header .form{   
     display: flex;
-    justify-content: space-around;
-   
-    
+    align-items: center;
+    border: solid 2px red;
     }
 
 
