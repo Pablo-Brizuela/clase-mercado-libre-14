@@ -57,7 +57,17 @@ header .form .submit{
     border: 1px solid #000;
     color: #666;
     width: 10%;
+    text-align: center;
+    
 }
+header .form{
+    border: solid 2px red;
+    display: flex;
+    justify-content: space-around;
+   
+    
+    }
+
 
 header div.top-header p{
     width: 100%;
@@ -154,6 +164,7 @@ article div.main-article{
 
 @media (min-width: 361px){
     
+    
     .top-header{
         
         display: flex;
@@ -172,7 +183,6 @@ article div.main-article{
 
     .main-navbar{
         display: flex;
-        border: solid 2px red;
         justify-content: space-between;
         padding: 0px 15px 10px;
     }
