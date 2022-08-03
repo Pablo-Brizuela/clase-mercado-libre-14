@@ -16,9 +16,14 @@ app.get('/register', (req,res)=>{
 });
 
 app.post('/register', (req,res)=>{
-    res.sendFile(__dirname + '/views/register.html');
+    res.sendFile(__dirname + '/views/home.html');
 });
 
 app.get('/login', (req,res)=>{
     res.sendFile(__dirname + '/views/login.html');
+});
+
+
+app.post('/login', (req,res)=>{
+    res.sendFile(__dirname + '/views/home.html');
 });

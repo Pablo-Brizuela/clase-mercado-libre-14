@@ -10,6 +10,9 @@
     </head>
     <form action="/register" method="post">
     <br>
+        <label">Registro de usuario</label>
+    </br>
+    <br>
         <label for="nombreApellido">nombre y apellido:</label>
     <input type="text"name="nombreApellido">
     </br>   
@@ -30,27 +33,40 @@
     <input type="text"name="perfilDeUsuario">
     </br>
     <br>
+    <label>Perfil de Usuario</label>
+
+    <br>
     <label>Comprar</label>
     <input type="radio" name="comprar">
-    </br>
-    <br>
     <label>Vender</label>
     <input type="radio" name="vender">
     </br>
     <br>
     <label>Categoria De Interes</label>
     
-    <input type="text"name="perfilDeUsuario">
-        <select name="categoria" class="control">
-            <option value="Electro">Electro</option>
-            <option value="Moda">Moda</option>
-            <option value="Hogar">Hogar</option>
-            <option value="Jugueteria">Jugueteria</option>
-            <option value="VidaSana">Vida Sana</option>
-        </select>
+    <br>
+    <label>Electro</label> 
+    <input type="checkbox" name="electro">  
+    
+    <br> 
+    <label>Moda</label> 
+    <input type="checkbox" name="moda">        
+    
+    <br> 
+    <label>Hogar</label> 
+    <input type="checkbox" name="hogar"> 
+    
+    <br> 
+    <label>Jugueteria</label> 
+    <input type="checkbox" name="jugueteria"> 
+    
+    <br> 
+    <label>Vida Sana</label> 
+    <input type="checkbox" name="vidaSana"> 
+    </br>
     <br>   
-    <label for="foroDeUsuario">Foro de Usuario</label>
-    <input type="text"name="foroDeUsuario"> 
+    <label for="foroDeUsuario">Foto de Usuario</label>
+    <input type="file"name="fotoDeUsuario"> 
     </br>
     <br>
     <label for="contraseña">Contraseña</label>
