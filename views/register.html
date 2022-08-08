@@ -48,77 +48,74 @@
     </section>
 
     <form action="/register" method="post" class="create-form">
-        <br>
-        <label">Registro de usuario</label>
-            </br>
-            <br>
-            <label for="nombreApellido">nombre y apellido:</label>
-            <input type="text" name="nombreApellido">
-            </br>
-            <br>
-            <label for="nombreDeUsuario">nombre y apellido:</label>
-            <input type="text" name="nombreDeUsuario">
-            </br>
-            <br>
-            <label for="fechaDeNacimiento">nombre y apellido:</label>
-            <input type="text" name="fechaDeNacimiento">
-            </br>
-            <br>
-            <label for="domicilio">nombre y apellido:</label>
-            <input type="text" name="domicilio">
-            </br>
-            <br>
-            <label for="perfilDeUsuario">nombre y apellido:</label>
-            <input type="text" name="perfilDeUsuario">
-            </br>
-            <br>
-            <label>Perfil de Usuario</label>
+        <div class="control-formulario">
+            <h4>Registro de usuario</h4>
+        </div>
+        <div class="control-formulario">
+            <label for="nombreApellido">Nombre y apellido:</label>
+            <input type="text" name="nombreApellido" class="control">
+        </div>
+        <div class="control-formulario">
+            <label for="nombreDeUsuario">Nombre de usuario:</label>
+            <input type="text" name="nombreDeUsuario" class="control">
+        </div>
+        <div class="control-formulario">
+            <label for="domicilio">Fecha de nacimiento:</label>
+            <input type="text" name="fechaDeNacimiento" class="control">
+        </div>
+        <div class="control-formulario">
+            <label for="domicilio">Domicilio:</label>
+            <input type="text" name="domicilio" class="control">
+        </div>
 
-            <br>
+        <div class="control-formulario">
+            <h4>Perfil de Usuario</h4>
+        </div>
+        <div class="control">
             <label>Comprar</label>
             <input type="radio" name="comprar">
             <label>Vender</label>
             <input type="radio" name="vender">
-            </br>
-            <br>
-            <label>Categoria De Interes</label>
-
-            <br>
+        </div>
+        <div class="control-formulario">
+            <h4>Categoria De Interes</h4>
+        </div>
+        <div>
             <label>Electro</label>
             <input type="checkbox" name="electro">
-
-            <br>
+        </div>
+        <div>
             <label>Moda</label>
             <input type="checkbox" name="moda">
-
-            <br>
+        </div>
+        <div>
             <label>Hogar</label>
             <input type="checkbox" name="hogar">
-
-            <br>
+        </div>
+        <div>
             <label>Jugueteria</label>
             <input type="checkbox" name="jugueteria">
-
-            <br>
+        </div>
+        <div class="control-formulario">
             <label>Vida Sana</label>
             <input type="checkbox" name="vidaSana">
-            </br>
-            <br>
+        </div>
+        <div class="control-formulario">
             <label for="foroDeUsuario">Foto de Usuario</label>
             <input type="file" name="fotoDeUsuario">
-            </br>
-            <br>
+        </div>
+        <div >
             <label for="contraseña">Contraseña</label>
             <input type="password" name="contraseña">
-            </br>
-            <br>
+        </div>
+        <div>
             <label for="confirmarContraseña">Confirmar Contraseña</label>
             <input type="password" name="confirmarContraseña">
-            </br>
-            <br>
+        </div>
+        <div>
             <button type="reset">Borrar</button>
             <button type="submit">Enviar</button>
-            </br>
+        </div>
 
     </form>
 

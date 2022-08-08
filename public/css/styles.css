@@ -25,7 +25,7 @@ header{
 }
 
 header div.logo{
-    width: 200px;
+    width: 100px;
 }
 
 header div.logo{
@@ -161,42 +161,84 @@ article div.main-article{
 }
 
 .create-form{
-    padding: 15px;
+    padding: 20px 15px;
+    text-align: center;
+     
 }
 
+.control-formulario{
+    margin-bottom: 15px;
+}
+
+.control{
+    padding: 2px 2px;
+ }
+
 .iconoFoder{
-    
+       
+    text-align: center;
+    color:#1259c3;
+   
+   }
+
+   footer div i{
+    font-size: 50px;
     height:60px;
     margin: 0 auto;
-    font-size: 50px;
     text-align: center;
     color:#1259c3;
     margin-bottom: 10px;
     margin-top: 80px;
-   }
+    }
 
+   
 
 h4{
     text-align: center;
+    color: #000;
 }
 
 p{
     text-align: center;
     margin: 0px 30px 5px 30px;
+    color: #000;
     
 }
 
 .pieDePagina{
     text-align:left;
     font-size: 13px;
-    margin: 50px 0px 20px 0px ;
+    margin: 100px 0px 20px 0px ;
     
  }
-.ubicacion{
-    display: flex;
-}
-@media (min-width: 361px){
+
+ footer{
     
+    margin: 20px;
+ }
+
+
+
+@media (min-width: 361px){
+    footer{
+        display: flex;
+        position: relative;
+        margin: 20px;
+     }
+    
+     footer div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+    }
+    footer div i:hover{
+        color:#666
+   }
+
+    footer div i{
+        transition: color, 0.9s;
+    }
     
     .top-header{
         
@@ -274,13 +316,20 @@ p{
     }
 
     button{
+        margin-top: 15px;
         transition: 0.9s;
+        border-radius: 4px;
+        padding: 1px 5px;
     }
     
     button:hover {
         background-color: #0022AA;
         color:white
     }
+
+    .pieDePagina{
+        
+        margin: 200px 0px 20px 0px ;
 
 }
 
