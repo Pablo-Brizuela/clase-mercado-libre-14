@@ -50,8 +50,10 @@ header .form .input{
     border: 1px solid #FFF;
     outline: none;
     color: #666;
-    padding: 2px;
-    font-size: 13px;
+    padding: 3px;
+    font-size: 10px;
+    border-radius: 5px 0px 0px 5px;
+    
 }
 header .form .submit{
     background-color: #FFF;
@@ -59,11 +61,14 @@ header .form .submit{
     color: #666;
     width: 10%;
     text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    
     
 }
 header .form{   
     display: flex;
     align-items: center;
+    
     
     }
 
@@ -277,6 +282,7 @@ p{
         display: block;
         transition: 
        color, 0.9s;
+       
     }
 
     main section article .description:hover{
@@ -332,9 +338,11 @@ p{
         margin: 200px 0px 20px 0px ;
 
 }
+}
 
 @media (min-width: 769px){
     main section div.products article{
         width: 22%;
     }
-  
+}
+
